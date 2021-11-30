@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.box{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#red{
+  background-color: red;
+}
+#green{
+  background-color: green;
+}
+#yellow{
+  background-color: yellow;
+}
+body{
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.shoes span{
+  display: block;
+  font-size: 50px;
+  color: yellow;
+  text-align: center;
+}
+.shoes{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+#yellow .shoes{
+  transform: translate(-50%, -50%);
+}
+#yellow span{
+  color: green;
+}
+/* Bonus */
+nav ul{
+  top: 5%;
+  right: 3%;
+  position: fixed;
+  z-index: 9999;
+  scroll-behavior: smooth;
+}
+nav ul li{
+  display: inline-block;
+  margin-left: 30px;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px 15px;
+  color: #000;
+  border-radius: 50%;
+}
+
+nav ul li a:hover{
+box-shadow: 2px 2px 5px #000;
+}
+/* End Bonus */
