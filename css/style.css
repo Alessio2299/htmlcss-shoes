@@ -17,4 +17,22 @@
 #yellow{
   background-color: yellow;
 }
-
+.shoes span{
+  display: block;
+  font-size: 50px;
+  color: yellow;
+  text-align: center;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.shoes{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+#yellow .shoes{
+  transform: translate(-50%, -50%);
+}
+#yellow span{
+  color: green;
+}
